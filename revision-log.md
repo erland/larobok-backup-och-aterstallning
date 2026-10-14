@@ -22,3 +22,4 @@
 | 18 | 2026-10-14 | Publiceringsgranskning: versionlåst Pandoc i GitHub Actions, SHA256, release-taggsstyrd versionsmetadata, EPUB nav linear=no, EPUB-CSS, exportvalidering och PDF/EPUB-provbygge; version 0.1.17 |
 | 19 | 2026-10-14 | README uppdaterad för färdigt bokmanus, publiceringsflöde och GitHub Actions; inga kapitel ändrade. |
 | 20 | 2026-10-14 | Kapitelstarter i PDF/EPUB: sidbrytning, uppdelad centrerad kapitelrubrik och separat titelblad/TOC; version 0.1.18. |
+| 21 | 2026-10-14 | Rättad layoutregression: explicit PDF-sidbrytning och separata centrerade rubrikrader; EPUB utan dubbel sidbrytning; version 0.1.19. |
