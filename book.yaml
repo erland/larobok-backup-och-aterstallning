@@ -1,0 +1,57 @@
+title: Backup och återställning i moderna IT-system
+subtitle: Från monolitiska system till distribuerade, händelsedrivna arkitekturer
+author: Erland Lindmark
+language: sv
+book_kind: factbook
+book_type: technical_factbook
+difficulty: experienced
+audience: IT-arkitekter, lösningsarkitekter, infrastrukturarkitekter, driftansvariga
+  och tekniska ledare
+edition: '1'
+version: '0.1.17'
+date: '2026-10-14'
+rights: All rights reserved
+publisher: ''
+cover_image: assets/cover/omslag.png
+identifier: ''
+subject: Backup, återställning och distribuerade system
+description: Arkitektur, applikationsdesign och drift för återställningsbara mikroservicetjänster
+  och händelsedrivna verksamhetsflöden.
+project_slug: backup-aterstallning-moderna-it-system
+chapters:
+- chapters/00-inledning.md
+- chapters/01-backup-och-aterstallning-i-traditionella-it-system.md
+- chapters/02-vad-forandras-med-moderna-it-arkitekturer.md
+- chapters/03-fran-teknisk-aterstallning-till-verksamhetsmassig-aterstallning.md
+- chapters/04-dataagarskap-och-tillstand-i-distribuerade-system.md
+- chapters/05-meddelandekoer-och-handelsestrommar.md
+- chapters/06-tidsmassig-konsistens-mellan-tjanster.md
+- chapters/07-aterspelning-av-handelser-och-ateruppbyggnad-av-tillstand.md
+- chapters/08-att-konstruera-tjanster-som-gar-att-aterstalla.md
+- chapters/09-tillforlitlig-handelsehantering.md
+- chapters/10-langlivade-verksamhetsprocesser-och-distribuerade-transaktioner.md
+- chapters/11-integrationer-med-omvarlden.md
+- chapters/12-arkitekturprinciper-for-aterstallningsbara-system.md
+- chapters/13-infrastruktur-for-distribuerade-system.md
+- chapters/14-backupstrategier-for-olika-typer-av-tillstand.md
+- chapters/15-disaster-recovery-och-aterstallning-av-hela-systemlandskap.md
+- chapters/16-sakerhet-cyberangrepp-och-aterstallning.md
+- chapters/17-att-planera-och-genomfora-en-aterstallning.md
+- chapters/18-testning-och-verifiering-av-aterstallningsformaga.md
+- chapters/19-styrning-ansvar-och-arkitekturstyrning.md
+- chapters/20-vagen-fran-traditionell-backup-till-modern-aterstallningsformaga.md
+- chapters/bilaga-a-begrepp-och-definitioner.md
+- chapters/bilaga-b-arkitekturprinciper-och-designmonster.md
+- chapters/bilaga-c-checklista-for-losningsarkitekter.md
+- chapters/bilaga-d-checklista-for-drift--och-plattformsansvariga.md
+- chapters/bilaga-e-exempel-pa-aterstallningsplan-och-aterstallningsovning.md
+- chapters/bilaga-f-referenser-och-vidare-lasning.md
+exports:
+  epub:
+    enabled: true
+    include_text_toc: false
+    toc_depth: 1
+  pdf:
+    enabled: true
+    include_toc_before_introduction: true
+    toc_depth: 3
