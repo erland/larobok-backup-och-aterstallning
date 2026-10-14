@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "project_slug": "backup-aterstallning-moderna-it-system",
-  "revision": 18,
-  "parent_revision": 17,
+  "revision": 19,
+  "parent_revision": 18,
   "tracked_files": {
     ".github/workflows/01-validate.yml": "c0dfc3c38df23e29694850a9e48f78d823ff4506d82cc2e2ec91cc1d654ff949",
     ".github/workflows/02-build-preview.yml": "d5e8b981c50718be4b227ec49ad6239ce72dc3cd1767b6b057c50cf9efc3088d",
     ".github/workflows/03-release.yml": "fcd5c98629fd956105904539e069a0bc493b11f5afc7616e61efd32c17b584ff",
-    "README.md": "a9631807c25d65ab31f8401b1214899510436921c195585624986fa0358893be",
+    "README.md": "210db2658beaeb17e74a1585976c7def8cf5325f07fa4e9b4cf99f363b2718d2",
     "assets/cover/README.md": "ed7e617db9eb199dab03d85b98a8657b84b2a62501fb49b2c06f824bfa5182e3",
     "assets/cover/omslag.png": "e85776424e7519aaea3e2c32e608eb9f1305cd01f3f3374fb7580284e68876a2",
     "assets/image-prompts/README.md": "0b40534adcf8916041a2f6366c60de30a10dd581c6a346212c164b73c6e8fbca",
@@ -59,12 +59,12 @@
     "publishing/epub.css": "4bfd058c4d4fe5b0aa6d17c2bb6fea86e160353b90bf3eb31901cfb629761793",
     "publishing/fix-epub-after-pandoc.py": "92090c491b119b29a9e1e550c37bd8df4af5e38985574306c8bed77372ea55a5",
     "publishing/pdf-pandoc-template.tex": "3d7bb24ff9956223c98d639940957323e4995a23ee6384893441bc3769bd5b5c",
-    "revision-log.md": "b59d03dd7c8f3c92d9d06cfb2dead539089ef783514bd379db14c0d0c2c2ca14",
+    "revision-log.md": "c008b0488cc116ebe69ab85ccc01cb1dab9008cb270f9dae8bc053d615378684",
     "scripts/build_book.py": "3d2956386281ae85799ec3ffe0b7c7661a2bd64cd4ad6ded1a30ffd2969c2c77",
     "scripts/export-book.py": "5ffc65c9a89a673d2db272a95bc5821b605ecce942d51823f285adc10c7da86e",
     "scripts/project_integrity.py": "8188d76fc23af2caa3b6c3379f966df8bf8ee8c951c9894586d8f0bd8b070092",
     "scripts/validate_exports.py": "89d38da221e9fd905a12fc72658d19797a1fab89871b82a54af86d7354b32a1b",
     "scripts/validate_project.py": "4f510f594b4f2dc3174d0cb89fbe5d688f97822be98fc021a7074dfb130c2a75"
   },
-  "created_utc": "2026-10-14T13:14:00.627169+00:00"
+  "created_utc": "2026-10-14T13:27:00+00:00"
 }
