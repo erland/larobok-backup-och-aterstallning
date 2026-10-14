@@ -20,3 +20,4 @@
 | 16 | 2026-10-14 | Godkänt omslag sparat som assets/cover/omslag.png; book.yaml kopplat till omslaget; version 0.1.15. Huvudkapitel och bilagor oförändrade. |
 | 17 | 2026-10-14 | Infogat godkänt omslag vid EPUB/PDF-export; uppdaterat CI-beroende och genomfört ny provexport, navigations- och layoutkontroll; version 0.1.16 |
 | 18 | 2026-10-14 | Publiceringsgranskning: versionlåst Pandoc i GitHub Actions, SHA256, release-taggsstyrd versionsmetadata, EPUB nav linear=no, EPUB-CSS, exportvalidering och PDF/EPUB-provbygge; version 0.1.17 |
+| 19 | 2026-10-14 | README uppdaterad för färdigt bokmanus, publiceringsflöde och GitHub Actions; inga kapitel ändrade. |
