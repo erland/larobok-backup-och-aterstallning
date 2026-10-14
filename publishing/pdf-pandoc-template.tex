@@ -494,6 +494,9 @@ $if(logo)$
 $endif$
 $endif$
 
+\usepackage{titlesec}
+\titleformat{\section}[block]{\centering\Large\bfseries}{}{0pt}{}
+\titlespacing*{\section}{0pt}{2.3em}{1.2em}
 \begin{document}
 $if(has-frontmatter)$
 \frontmatter
@@ -503,6 +506,7 @@ $if(beamer)$
 \frame{\titlepage}
 $else$
 \maketitle
+\clearpage
 $endif$
 $if(abstract)$
 \begin{abstract}
