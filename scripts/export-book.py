@@ -9,7 +9,7 @@ if not shutil.which('pandoc'):sys.exit('Pandoc is not installed')
 if a.format=='pdf' and not shutil.which('xelatex'):sys.exit('XeLaTeX is not installed')
 out=r/'exports';out.mkdir(exist_ok=True)
 version=os.getenv('BOOK_RELEASE_TAG', '').removeprefix('v') or b['version'];output=out/f"{b['project_slug']}-{version}.{a.format}"
-cmd=['pandoc',*list(map(str,[r/x for x in b['chapters']])), '--standalone','--metadata',f"title={b['title']}",'--metadata',f"subtitle={b['subtitle']}",'--metadata',f"author={b['author']}",'--metadata',f"lang={b['language']}",'--metadata',f"version={version}",'--metadata',f"keywords=Version {version}",'-o',str(output)]
+cmd=['pandoc',*list(map(str,[r/x for x in b['chapters']])), '--standalone','--metadata',f"title={b['title']}",'--metadata',f"subtitle={b['subtitle']}",'--metadata',f"author={b['author']}",'--metadata',f"lang={b['language']}",'--metadata',f"version={version}",'--metadata',f"keywords=Version {version}",'--lua-filter',str(r/'publishing/chapter-layout.lua'),'-o',str(output)]
 if a.format=='epub':
  cover=r/b.get('cover_image','') if b.get('cover_image') else None
  if cover and cover.is_file():cmd.extend(['--epub-cover-image',str(cover)])
