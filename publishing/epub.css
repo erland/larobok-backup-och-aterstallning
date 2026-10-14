@@ -1,6 +1,6 @@
 body { line-height: 1.5; } p { margin: 0 0 .8em; } h1,h2,h3 { line-height: 1.2; } h1 { margin: 1.2em 0 .75em; } img { max-width:100%;height:auto;} table { border-collapse:collapse;width:100%;} th,td {border:1px solid #888; padding:.35em .5em;vertical-align:top;} pre {white-space:pre-wrap;}
 
 /* Chapter titles and page starts in reflowable readers. */
-h1 { text-align: center; break-before: page; page-break-before: always; margin-top: 1.6em; }
+h1 { text-align: center; margin-top: 1.6em; }
 h1 .chapter-number, h1 .chapter-title { display: block; text-align: center; }
 h1 .chapter-number { font-size: .73em; font-weight: normal; margin-bottom: .45em; }
